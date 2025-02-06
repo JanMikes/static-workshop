@@ -1,0 +1,17 @@
+{
+    "name": "janmikes/static-workshop",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Janmikes\\StaticWorkshop\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.3.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "rector/rector": "^2.0"
+    }
+}
